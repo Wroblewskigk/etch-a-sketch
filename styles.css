@@ -1,0 +1,14 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#grid-container{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-flow: column;
+}
