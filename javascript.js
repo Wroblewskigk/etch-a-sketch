@@ -9,3 +9,10 @@ for (let i = 0; i < 16; i++) {
         columns[i].innerHTML += "<div class='field'></div>";
     }
 }
+
+let fields = document.getElementById('grid-container');
+fields.addEventListener('mouseover', (event)=>{
+    if(event.target.classList.contains('field')){
+        event.target.style = "background-color: orange;";
+    }
+});
